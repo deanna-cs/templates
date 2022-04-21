@@ -22,6 +22,18 @@ Changelogs can also include other information, such as:
 * Breaking changes
 * Migrations
 
+### Highlights
+
+TODO add some content here
+
+### Upcoming
+
+TODO add some content here
+
+### Deprecation
+
+TODO add some content here
+
 As you build your changelog, you'll need to decide what sections your changelog must have. If you're in the early stages of working on your software project, you might need an "added", "changed", and "fixed" section to start. As your project evolves, you can add other sections, like "deprecated" or "migrations." 
 
 ## Guiding principles for changelogs 
@@ -31,6 +43,8 @@ There are several principles to follow as you develop a changelog for your softw
 ### Write changelog entries that answer the "why"
 
 TODO You shouldn't say what you did, but *why* you did it. Instead of saying, "We implemented this function through using this library, etc etc, say something like, "Improved process of something to better do thing."
+
+NOTE Understanding the context of the change -> important
 
 NOTE This might be a manual process? If you're using automation would it pull in the name of the PR or the last commit before the changelog was generated? hmmm
 
@@ -69,7 +83,9 @@ Crediting your contributors has several benefits:
 
 Semantic versioning is the industry-standard way of communicating changes to a software project. The version format typically follows an X.Y.Z (Major.Minor.Patch) format, like 1.1.2. To indicate changes to your software project, you change the version number. For example, 1.1.3 indicates that a backwards-compatible bug fix was implemented for that particular release. 
 
-If you don't use semantic versioning for your software project, it is recommended that you do. However, not all projects are the same. If your project uses a different convention for indicating software versions, it is important to highlight this information somewhere in the changelog or in a README file. 
+If you don't use semantic versioning for your software project, it is recommended that you do. However, not all projects are the same. If your project uses a different convention for indicating software versions, it is important to highlight this information somewhere in the changelog or in a README file.
+
+NOTE Whatever scheme you use for your versioning, be consistent in it; don't change when you feel like it
 
 ### Document changes that impact end users
 
