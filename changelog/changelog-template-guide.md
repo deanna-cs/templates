@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-**NOTE**: We can leave this in here for now; eventually the project will decide how/if to include this language on future templates - **Deanna**
+**NOTE**: We can leave this in here for now; eventually, the project will decide how/if to include this language on future templates - **Deanna**
 
 The target audience for this version of the Changelog Template Guide - and the accompanying Changelog Template - is the Open Source Software (OSS) domain. However, closed source or proprietary software environments can also use these documents, either as is or with modifications based on need.
 The end users referred to in this document, and the accompanying template, may belong to one of the following OSS domain subgroups:
@@ -16,7 +16,8 @@ The end users referred to in this document, and the accompanying template, may b
 **Deanna**: Depends on your writing style. If bullets help you to get your ideas down on paper first, do that. Eventually, you can circle back to your draft and start building out some well-developed paragraphs.
 
 ---
-## What is a changelog and what is its purpose?
+
+## What is a Changelog, and what's its purpose?
 
 A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software or technology project's versioned release from the initial release to its current state.
 
@@ -48,7 +49,7 @@ Changelogs currently do not have a formal standard or format in the OSS domain. 
 - Links to additional relevant details:
   - Specific issues, feature requests, Git tag, issue #, etc.
 
-## Reasons the use Changelogs
+## Reasons to use Changelogs
 
 ---
 
@@ -81,15 +82,15 @@ Tracking and eliminating conceptual inconsistencies. Ensuring alignment with pro
 - A clear and consistent record of application changes can help identify and correct conceptual inconsistencies in the codebase.
 Tracks various changes: additions, deletions, new features or enhancements, deprecations, etc. Similar types of changes are grouped with links to additional documentation.
 - Benefits OSS developers and the larger open source development community of what changed, when (date), why (context), and by whom (dev name/email).
-- It can help re-learn and understand code logic and onboarding new developers to the project.
+- It can help re-learn and understand code logic and onboard new developers to the project.
 - Developers can track software changes, when made and by whom, understand which parts of the software team members are working on, and understand the overall software product progression and direction.
-  - Without a well-maintained changelog, developers would have to look through various documents or different source code versions to understand what changed and why.
+  - Without a well-maintained changelog, developers would have to look through various documents or source code versions to understand what changed and why.
   - Developers can see software change history consistently in one place instead of wasting time digging source code, comments, commit messages, or other documentation.
 - In the absence of a traditional help desk in the OSS domain, OSS co-developers/users depend on the changelogs and other technical documentation to find answers to their issues or ask for help.
 - Changelogs mention individual developers by name, thus acknowledging their contributions to the project and increasing project buy-in and commitment.
 - Changelogs can keep product users in the loop, engaged, and excited about software updates and new functionality that can increase customer loyalty and product use.
 - Product power-users who are some of the avid fans of changelogs and read them keenly can influence product choices based on their experience with the product and the evolution of the product.
-- It has the potential to attract future customers and employees through social media and other industry-specific organizations and conferences.
+- It can potentially attract future customers and employees through social media and other industry-specific organizations and conferences.
 - Up to date project documentation, including Changelogs, can increase the adoption of new development standards and tools and build developer loyalty through empowerment and a sense of ownership of the end product.
 
 ## Changelogs vs. Release Notes
@@ -100,7 +101,7 @@ Tracks various changes: additions, deletions, new features or enhancements, depr
 
 - Changelogs and release notes are considered to change documentation in a software application environment.
 - Release notes content is:
-  - In a customer-centric language - plain, succinct, and jargon-free.
+  - In a customer-centric language - plain, concise, and jargon-free.
   - They are used by companies to specifically communicate new application changes to their consumers and application users.
   - It can be internal or external focused.
 - Changelog content is:
