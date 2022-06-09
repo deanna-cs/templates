@@ -24,7 +24,7 @@ Changelogs can also include other information, such as:
 
 ### Highlights
 
-TODO add some content here
+If there is any important information you want to call out for your users, do that here. Some use cases for this section might include calling out any breaking changes or deprecated features. For example, if you're going to deprecate a highly-used feature in an upcoming release, you might want to call that out here. 
 
 ### Upcoming
 
@@ -38,15 +38,13 @@ As you build your changelog, you'll need to decide what sections your changelog 
 
 ## Guiding principles for changelogs 
 
-There are several principles to follow as you develop a changelog for your software project. TODO better intro text 
+There are several principles to follow as you develop a changelog for your software project.
 
 ### Write changelog entries that answer the "why"
 
-TODO You shouldn't say what you did, but *why* you did it. Instead of saying, "We implemented this function through using this library, etc etc, say something like, "Improved process of something to better do thing."
+When writing changelogs, you shouldn't only say what you did—you should explain *why* you dod it. For example, rather than saying, "We implemented this function," explain why you implemented the function. A good template to use is "{Verb} + {Why}." A revised entry might be, "Implented function to improve application response times." 
 
-NOTE Understanding the context of the change -> important
-
-NOTE This might be a manual process? If you're using automation would it pull in the name of the PR or the last commit before the changelog was generated? hmmm
+Adding the "why" to your changelog entries helps your users to understand the context of the change. If you consistently indicate the benefits or improvements of the changes you make, your users will see that your team is user-focused and committed to improving their experience with your project.
 
 ### (Open source) Acknowledge your contributors
 
@@ -83,9 +81,7 @@ Crediting your contributors has several benefits:
 
 Semantic versioning is the industry-standard way of communicating changes to a software project. The version format typically follows an X.Y.Z (Major.Minor.Patch) format, like 1.1.2. To indicate changes to your software project, you change the version number. For example, 1.1.3 indicates that a backwards-compatible bug fix was implemented for that particular release. 
 
-If you don't use semantic versioning for your software project, it is recommended that you do. However, not all projects are the same. If your project uses a different convention for indicating software versions, it is important to highlight this information somewhere in the changelog or in a README file.
-
-NOTE Whatever scheme you use for your versioning, be consistent in it; don't change when you feel like it
+If you don't use semantic versioning for your software project, it is recommended that you do. However, not all projects are the same. If your project uses a different convention for indicating software versions, it is important to highlight this information somewhere in the changelog or in a README file. Whatever schema you use, make sure to be consistent.
 
 ### Document changes that impact end users
 
@@ -93,4 +89,4 @@ TODO Telling your users that you switched SSGs doesn't impact them; breaking cha
 
 ## Changelog automation
 
-TODO It's the best
+There are two ways you can generate a changelog: through manually creating one or through using a tool that can generate a changelog from your commits. If you're interested in learning more about changelog automation, see the [changelog deep dive document](changelog-deep-dive-guide.md).
