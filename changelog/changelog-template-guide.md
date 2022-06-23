@@ -39,11 +39,7 @@ Changelogs currently do not have a formal standard or format in the OSS domain, 
 - Links to additional relevant details
   - Specific issues, feature requests, Git tag, issue number, etc.
 
----
-
 ## Reasons to use Changelogs
-
----
 
 Changelogs can help various groups within the OSS environment work more efficiently by providing software-related application changes and other technical information in a single up to date document delivered with each software release or patch update. There are several groups of software development team who benefit from a changelog. These include internal OSS developers, OSS contributors and co-developers worldwide, QA, software designers, system architects, and other technical team members and individuals.
 
