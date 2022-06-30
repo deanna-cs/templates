@@ -22,19 +22,19 @@ Changelogs can also include other information, such as:
 * Breaking changes
 * Migrations
 
+As you build your changelog, you'll need to decide what sections your changelog must have. If you're in the early stages of working on your software project, you might need an "added", "changed", and "fixed" section to start. As your project evolves, you can add other sections, like "deprecated" or "migrations."
+
 ### Highlights
 
 If there is any important information you want to call out for your users, do that here. Some use cases for this section might include calling out any breaking changes or deprecated features. For example, if you're going to deprecate a highly-used feature in an upcoming release, you might want to call that out here. 
 
 ### Upcoming
 
-TODO add some content here
+Adding a "Upcoming" section to your changelog template is a great way to let your users know about features coming down the pipeline. For example, if your users have been requesting a particular feature for some time—and if the engineering team has started work on it–you can add that feature to this section. It's also a great way to show your end users that you listen to their feedback and seek to find ways to implement features that meet their needs.
 
 ### Deprecation
 
-TODO add some content here
-
-As you build your changelog, you'll need to decide what sections your changelog must have. If you're in the early stages of working on your software project, you might need an "added", "changed", and "fixed" section to start. As your project evolves, you can add other sections, like "deprecated" or "migrations." 
+Features that were deprecated for a release can be added to this section. You may also want to add a brief explanation of why the feature was deprecated and also, recommended alternative methods or features to use instead.
 
 ## Guiding principles for changelogs 
 
@@ -85,7 +85,9 @@ If you don't use semantic versioning for your software project, it is recommende
 
 ### Document changes that impact end users
 
-TODO Telling your users that you switched SSGs doesn't impact them; breaking changes to your API does. 
+Not everything needs to be included in your changelog. It's important to make sure that you only include changes that impact your end users, especially if your changelog is for them. New or deprecated features are especially important to document, as your end users are mostly likely to be interested in that information. 
+
+If you find that your changelog has information for multiple audiences in one document, consider creating a changelog specifically for your end users and one for internal team members or internal stakeholders to keep your changelog focused.
 
 ## Changelog automation
 
