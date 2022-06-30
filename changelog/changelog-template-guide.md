@@ -1,6 +1,6 @@
 # Changelog Template Guide - Rob
 
-## What is a Changelog, and what's its purpose?
+## What is a Changelog?
 
 A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software project from the initial release to its current version. Simply put, changelogs keep track of all technology-related changes to a software application.
 
