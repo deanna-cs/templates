@@ -2,35 +2,29 @@
 
 ## What is a Changelog, and what's its purpose?
 
-A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software or technology project's versioned release from the initial release to its current state. In other words, they keep track of all technology-related changes to a software application.
+A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software project from the initial release to its current version. Simply put, changelogs keep track of all technology-related changes to a software application.
 
 Its primary purpose is to record important codebase changes and updates in a single document in a format and language that is valuable to the development teams, especially developers, to have an accurate and reliable history of the application changes from its origin to its current state.
 
 Its value in an OSS environment is considerably more significant due to the reuse, enhancement, and redistribution of the open source application by developers worldwide.
 
-Changelog history can offer a view into the direction and progression of the project and the software product, help visualize team's progression towards implementing new functionality that benefits end users, and guides them towards creating and implementing functionality that benefit the users and follow coding practices and tools consistent with the company's vision and goals, and can make corrections, if needed.
-
 ## Benefits of using Changelogs
-
-Changelogs track and report on all notable software changes, including additions, deletions, new features, feature enhancements, deprecations, security-related updates, etc., for each release in one easily accessible document. The absence of such information could result in confusion, software issues and bugs, general uncertainty, and loss of collaboration and teamwork for the developers and development teams. Inconsistently maintained or published changelogs can also lead to compliance issues and negatively impact customer and shareholder relationships.
 
 Changelogs can help various groups within the OSS environment work efficiently by documenting notable software and related application changes and other technical information in a single up to date document delivered with each software release or patch update. These include internal OSS developers, OSS contributors and co-developers worldwide, QA engineers, software designers, system architects, and other technical team members and individuals.
 
-Changelogs can help developers resolve application issues and bugs quickly by reviewing changelogs, identifying specific change(s) that likely introduced the bug, and quickly fixing, testing, and updating the codebase.
+Changelogs can help developers resolve application issues and bugs quickly by reviewing changelogs, identifying specific change(s) that likely introduced the bug, and quickly fixing, testing, and updating the codebase. Developers can understand why a particular change was made, who made it and why, which parts of the software other team members are working on, and the overall software product progression and direction. Developers can see software change history in one document located in a central place. Without this information available in on place consistently, developers could end up spending time looking through various technical documents, source code, comments, or commit messages to understand what changed, why it changed, and how to confidently change their software to account for the change. Additionally, developers using OSS applications don't have access to a traditional help desk to answer technical questions and offer guidance, so a changelog is their main source of all the changes to the application.
 
-**REVIEW** They may also be able to focus on specific changes that might have caused the issue by reviewing changes to the codebase.
+Changelogs track and report on such changes as deletions, new features, feature enhancements, deprecations, security-related updates, etc., for each release in one easily accessible document. The absence of specific change information could result in confusion, software issues and bugs, general uncertainty, and loss of collaboration and teamwork for the developers and development teams. Inconsistently maintained or published changelogs can also lead to compliance issues and negatively impact customer and shareholder relationships.
 
 Without this level of backward-looking information, identification and correction of software issues could take longer, leading to code inconsistencies and product degradation that could result in lower customer satisfaction with the product.
 
+Well-maintained changelogs can offer developers a view of the direction and progression of the project and product progression. It can help visualize the team's progress towards implementing new functionalities that benefit end users and guide them towards creating and implementing functionality that benefits the users, as well as following coding practices and tools consistent with the company's vision and goals.
+
 Changelogs are an excellent communication tool between the OSS development teams, the larger OSS development community and co-developers, and other technical folks worldwide. A changelog keeps open source community members up to date with software changes. A clearly formatted and consistently created changelogs can help build confidence in the product among the development community and allows them to make quality product improvements.
 
-Developers can also understand why a particular change was made, who made it, and why, understanding which parts of the software other team members are working on, and the overall software product progression and direction. Developers can see software change history in one document located in a central place. Without this document, developers could waste looking through various technical documents, source code, comments, or commit messages to understand what changed, why it changed, and how to confidently change their software to account for the software change. Additionally, developers using OSS applications don't have access to a traditional help-desk to answer their technical questions and other technical issues, so a changelog is their main source of all changes to the software application.
+Changelogs are a valuable tool in collecting actionable metrics and insights into the software product through the collection of bugs-to-feature ratios. This can help in strategic planning and possibly have a positive business impact by determining whether the team should focus on new features and functionality or on creating bug-free code by focusing on software design and updating development toolsets. Without these or similar metrics, sub-optimal development processes or practices might not be identified and corrected, leading to potential negative business consequences.
 
-**REVIEW** Understanding what is at risk, the time and effort spent maintaining an up to date changelog seems to be relatively insignificant.
-
-Changelogs are a valuable tool in collecting actionable metrics and insights into the software product through the collection of bugs-to-feature ratios. This can help in strategic planning and possibly have a positive business impact by determining whether the team should focus on new features and functionality or on creating bug-free code by focusing on software design and updating development tool sets. Without these or similar metrics, sub-optimal development processes or practices might not be identified and corrected, leading to potential negative business consequences.
-
-They can also be an helpful adjunct resource in the QA/QC process by providing additional details for changes to the software in the context of why, when, and who.
+They can also be a helpful adjunct resource in the QA/QC process by providing additional details for changes to the software in the context of why, when, and who.
 
 Changelogs are a good source to help track and eliminate conceptual inconsistencies in the codebase arising due to quick fixes or changes that might have missed the QA process or a test case. Going back in time and identifying when a specific change causing the codebase inconsistency was made, by whom, and the context for the change can help resolve code inconsistencies. Conflicting development concepts in an application can lead to performance issues that can be difficult to identify and resolve and might lead to an inefficient and ineffective product or design.
 
@@ -52,64 +46,10 @@ Release notes, on the other hand, are end-user-focused and emphasize software ch
 
 ## What are the guiding principles for creating Changelogs?
 
-Changelogs are meant for humans to read and interpret and, therefore, should be in human-readable text. It should communicate the technical change, such as bug fixes, new/updated features, deprecation, removal, security updates, etc., who made them, and its context, the why. Changelog contents should be sorted by importance; more critical changes on top followed by less important ones. Changes that are less important or noteworthy, such as code refactoring and efficiency, should not be included. Each change entry should provide a link to additional details and information, such as git commits, issue number/tracker, etc. Changelog publishing cadence should ideally coincide with each software release or patch update. It is recommended to create an "Unreleased" section at the top of the changelog file to track current release work, and change the unreleased tag with the next release date and version when ready to publish. As in all documentation, it is good practice to review the changelog file for accuracy and completeness before publishing.
+Changelogs are meant for humans to read and interpret and, therefore, should be in human-readable text. It should communicate the technical change, such as bug fixes, new/updated features, deprecation, removal, security updates, etc., who made them, and its context, the why. Changelog contents should be sorted by importance; more critical changes on top followed by less important ones. Changes that are less important or noteworthy, such as code refactoring and efficiency, should not be included. Each change entry should link to additional details and information, such as git commits, issue number/tracker, etc. Changelog publishing cadence should ideally coincide with each software release or patch update. It is recommended to create an "Unreleased" section at the top of the changelog file to track current release work and change the unreleased tag with the next release date and version when ready to publish.
 
-## Who writes/creates Changelogs?
+## Who should create Changelogs?
 
-Individual software developers who make the software changes and updates are best positioned to update a changelog when the software is changed. When the software is ready to be released, the development team lead or the designee can verify and confirm the changelog information for accuracy before publishing.
+Individual software developers who make the changes and updates are best positioned to update a changelog when the software is changed. When the software is ready to be released, the development team lead or the designee can verify and confirm the changelog information for accuracy before publishing.
 
-Other development team members can also take on the responsibility of maintaining, updating, verifying, and publishing the changelog by collaborating with the developers for each release cycle.
-
-**NOTE: Could the below info be a part of the section 4 of the Changelog Guide Outline.**
-
-### Format, File Name, Location, Cadence, etc.
-
-Changelogs currently do not have a formal standard or format in the OSS domain, however, there are recommended approaches for content, formatting, cadence, and consistency. These include:
-
-- Version number for the release
-  - [Semantic Versioning](https://semver.org/)
-
-- Date Format
-  - [ISO 8601 Standard](https://www.iso.org/iso-8601-date-and-time-format.html)
-
-- Types of changes
-  - Added, changed, deprecated, removed, fixed, etc. **NOTE**: Might link out to GitHub docs?
-**Deanna**. [GitHub Docs](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
-
-- Who made them and Why
-  - Dev name, email
-
-- Links to additional relevant details
-  - Specific issues, feature requests, Git tag, issue number, etc.
-
-### Where will users find the changelog? (location)
-
-- Blog posts; as Markdown (.md) files in a github repo; changelog section of a software or its website; on “what’s new” in android and apple apps stores.
-
-### File names (recommended)
-
-- Changelog Names: Changelog, CHANGELOG.md, CHANGES.md, HISTORY.txt, NEWS.txt, etc.
-
-### Format
-
-No standard or formal format as of the writing of this doc. Some good advice on:
-
-- What a format should be?
-  - For version #, use Semantic Versioning.
-  - For date, use ISO date format.
-  - Include name and email of the dev.
-  - Include reason for change.
-  - Use links for additional info related to a change, such as git commit, issue #, etc.
-- What should be included?
-  - Types of changes: bug fixes, additions, new features, deprecations, removals, security changes.
-- What types of tags to use?
-  - Added, Changed, Deprecated, Security, etc.
-  - Combine similar changes under one tag.
-
-### When is a changelog created?
-
-- Changelog is a historical file and is recommended to be continuously updated during software development up until the code is ready to be deployed in a new release.
-
-### When will the changelog be available to the end users?
-
-- Changelog cadence should coincide with each new software release.
+Other development team members can also be responsible for maintaining, updating, verifying, and publishing the changelog by collaborating with the developers for each release cycle.
